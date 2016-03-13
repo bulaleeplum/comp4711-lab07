@@ -3,8 +3,8 @@
     <course name="COMP4985">
         <booking>
             <room>SE12-323</room>
-            <time>9:30</time>
             <dayofweek>Monday</dayofweek>
+            <time>9:30</time>
             <instr>Aman Abdual</instr>
             <type>lab</type>
         </booking>
@@ -12,8 +12,8 @@
     <course name="COMP4735">
         <booking>
             <room>SW1-1205</room>
-            <time>11:30</time>
             <dayofweek>Monday</dayofweek>
+            <time>11:30</time>
             <instr>Mirela Hutica</instr>
             <type>lecture</type>
         </booking>
@@ -21,8 +21,8 @@
     <course name="BLAW3600">
         <booking>
             <room>SW9-127</room>
-            <time>12:30</time>
             <dayofweek>Monday</dayofweek>
+            <time>12:30</time>
             <instr>Catherine Ryan</instr>
             <type>lab</type>
         </booking>
@@ -30,8 +30,8 @@
     <course name="COMP4560">
         <booking>
             <room>SE12-320</room>
-            <time>15:30</time>
             <dayofweek>Monday</dayofweek>
+            <time>15:30</time>
             <instr>Brenda FIne</instr>
             <type>lab</type>
         </booking>
@@ -39,8 +39,8 @@
     <course name="COMP4981">
         <booking>
             <room>SE12-232</room>
-            <time>9:30</time>
             <dayofweek>Tuesday</dayofweek>
+            <time>9:30</time>
             <instr>Aman Abdual</instr>
             <type>lab</type>
         </booking>
@@ -48,8 +48,8 @@
     <course name="COMP4560">
         <booking>
             <room>SW5-1850</room>
-            <time>11:30</time>
             <dayofweek>Tuesday</dayofweek>
+            <time>11:30</time>
             <instr>Brenda FIne</instr>
             <type>lab</type>
         </booking>
@@ -57,8 +57,8 @@
     <course name="COMP4711">
         <booking>
             <room>SW5-1840</room>
-            <time>14:30</time>
             <dayofweek>Tuesday</dayofweek>
+            <time>14:30</time>
             <instr>James Parry</instr>
             <type>lecture</type>
         </booking>
@@ -66,8 +66,8 @@
     <course name="COMP4711">
         <booking>
             <room>SW5-1840</room>
-            <time>15:30</time>
             <dayofweek>Tuesday</dayofweek>
+            <time>15:30</time>
             <instr>James Parry</instr>
             <type>lab</type>
         </booking>
@@ -75,8 +75,8 @@
     <course name="COMP4985">
         <booking>
             <room>SE12-323</room>
-            <time>9:30</time>
             <dayofweek>Wednesday</dayofweek>
+            <time>9:30</time>
             <instr>Aman Abdual</instr>
             <type>lecture</type>
         </booking>
@@ -84,8 +84,8 @@
     <course name="COMP4981">
         <booking>
             <room>SE12-232</room>
-            <time>11:30</time>
             <dayofweek>Tuesday</dayofweek>
+            <time>11:30</time>
             <instr>Aman Abdual</instr>
             <type>lab</type>
         </booking>
@@ -93,8 +93,8 @@
     <course name="COMP4735">
         <booking>
             <room>SW1-1205</room>
-            <time>13:30</time>
             <dayofweek>Wednesday</dayofweek>
+            <time>13:30</time>
             <instr>Mirela Hutica</instr>
             <type>lecture</type>
         </booking>
@@ -102,8 +102,8 @@
     <course name="COMP4981">
         <booking>
             <room>SE12-232</room>
-            <time>9:30</time>
             <dayofweek>Thursday</dayofweek>
+            <time>9:30</time>
             <instr>Aman Abdual</instr>
             <type>lecture</type>
         </booking>
@@ -111,8 +111,8 @@
     <course name="COMP4735">
         <booking>
             <room>SW3-1710</room>
-            <time>11:30</time>
             <dayofweek>Thursday</dayofweek>
+            <time>11:30</time>
             <instr>Mirela Hutica</instr>
             <type>lecture</type>
         </booking>
@@ -120,8 +120,8 @@
     <course name="COMP4735">
         <booking>
             <room>SW3-1710</room>
-            <time>11:30</time>
             <dayofweek>Thursday</dayofweek>
+            <time>11:30</time>
             <instr>Matthew Linder</instr>
             <type>lab</type>
         </booking>
@@ -129,8 +129,8 @@
     <course name="BLAW3600">
         <booking>
             <room>SW9-127</room>
-            <time>8:30</time>
             <dayofweek>Friday</dayofweek>
+            <time>8:30</time>
             <instr>Catherine Ryan</instr>
             <type>lecture</type>
         </booking>
@@ -138,8 +138,8 @@
     <course name="COMP4560">
         <booking>
             <room>SW3-1750</room>
-            <time>11:30</time>
             <dayofweek>Friday</dayofweek>
+            <time>11:30</time>
             <instr>Brenda FIne</instr>
             <type>lecture</type>
         </booking>
