@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE timetable SYSTEM "timetable.dtd" [
-        <!ENTITY days SYSTEM "days.xml">
-        <!ENTITY courses SYSTEM "courses.xml">
-        <!-- put timeslot xml linking here -->
+        <!ENTITY days      SYSTEM "days.xml">
+        <!ENTITY courses   SYSTEM "courses.xml">
+        <!ENTITY timeslots SYSTEM "timeslots.xml">
 ]>
 <timetable set="4O" term="Winter 2016">
     &days;

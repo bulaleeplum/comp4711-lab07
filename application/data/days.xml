@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE days SYSTEM "timetable.dtd">
 <days>
     <day code="monday">
         <booking>
             <room>SE12-323</room>
             <time>9:30</time>
             <coursename>COMP4985</coursename>
-            <instr>Aman Abdula</instr>
+            <instr>Aman Abdulla</instr>
             <type>lab</type>
         </booking>
         <booking>
@@ -35,7 +36,7 @@
             <room>SE12-323</room>
             <time>9:30</time>
             <coursename>COMP4981</coursename>
-            <instr>Aman Abdula</instr>
+            <instr>Aman Abdulla</instr>
             <type>lab</type>
         </booking>
         <booking>
@@ -65,21 +66,21 @@
             <room>SE12-323</room>
             <time>9:30</time>
             <coursename>COMP4985</coursename>
-            <instr>Aman Abdula</instr>
+            <instr>Aman Abdulla</instr>
             <type>lecture</type>
         </booking>
         <booking>
             <room>SE12-323</room>
             <time>11:30</time>
             <coursename>COMP4985</coursename>
-            <instr>Aman Abdula</instr>
+            <instr>Aman Abdulla</instr>
             <type>lecture</type>
         </booking>
         <booking>
             <room>SE12-323</room>
             <time>12:30</time>
             <coursename>COMP4985</coursename>
-            <instr>Aman Abdula</instr>
+            <instr>Aman Abdulla</instr>
             <type>lecture</type>
         </booking>
         <booking>
@@ -95,7 +96,7 @@
             <room>SE12-323</room>
             <time>9:30</time>
             <coursename>COMP4981</coursename>
-            <instr>Aman Abdula</instr>
+            <instr>Aman Abdulla</instr>
             <type>lecture</type>
         </booking>
         <booking>

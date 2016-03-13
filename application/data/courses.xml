@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE courses SYSTEM "timetable.dtd">
 <courses>
     <course name="COMP4985">
         <booking>
             <room>SE12-323</room>
             <dayofweek>Monday</dayofweek>
             <time>9:30</time>
-            <instr>Aman Abdual</instr>
+            <instr>Aman Abdulla</instr>
             <type>lab</type>
         </booking>
     </course>
@@ -14,7 +15,7 @@
             <room>SW1-1205</room>
             <dayofweek>Monday</dayofweek>
             <time>11:30</time>
-            <instr>Mirela Hutica</instr>
+            <instr>Mirela Gutica</instr>
             <type>lecture</type>
         </booking>
     </course>
@@ -32,7 +33,7 @@
             <room>SE12-320</room>
             <dayofweek>Monday</dayofweek>
             <time>15:30</time>
-            <instr>Brenda FIne</instr>
+            <instr>Brenda Fine</instr>
             <type>lab</type>
         </booking>
     </course>
@@ -41,7 +42,7 @@
             <room>SE12-232</room>
             <dayofweek>Tuesday</dayofweek>
             <time>9:30</time>
-            <instr>Aman Abdual</instr>
+            <instr>Aman Abdulla</instr>
             <type>lab</type>
         </booking>
     </course>
@@ -50,7 +51,7 @@
             <room>SW5-1850</room>
             <dayofweek>Tuesday</dayofweek>
             <time>11:30</time>
-            <instr>Brenda FIne</instr>
+            <instr>Brenda Fine</instr>
             <type>lab</type>
         </booking>
     </course>
@@ -77,7 +78,7 @@
             <room>SE12-323</room>
             <dayofweek>Wednesday</dayofweek>
             <time>9:30</time>
-            <instr>Aman Abdual</instr>
+            <instr>Aman Abdulla</instr>
             <type>lecture</type>
         </booking>
     </course>
@@ -86,7 +87,7 @@
             <room>SE12-232</room>
             <dayofweek>Tuesday</dayofweek>
             <time>11:30</time>
-            <instr>Aman Abdual</instr>
+            <instr>Aman Abdulla</instr>
             <type>lab</type>
         </booking>
     </course>
@@ -95,7 +96,7 @@
             <room>SW1-1205</room>
             <dayofweek>Wednesday</dayofweek>
             <time>13:30</time>
-            <instr>Mirela Hutica</instr>
+            <instr>Mirela Gutica</instr>
             <type>lecture</type>
         </booking>
     </course>
@@ -104,7 +105,7 @@
             <room>SE12-232</room>
             <dayofweek>Thursday</dayofweek>
             <time>9:30</time>
-            <instr>Aman Abdual</instr>
+            <instr>Aman Abdulla</instr>
             <type>lecture</type>
         </booking>
     </course>
@@ -113,7 +114,7 @@
             <room>SW3-1710</room>
             <dayofweek>Thursday</dayofweek>
             <time>11:30</time>
-            <instr>Mirela Hutica</instr>
+            <instr>Mirela Gutica</instr>
             <type>lecture</type>
         </booking>
     </course>
@@ -140,7 +141,7 @@
             <room>SW3-1750</room>
             <dayofweek>Friday</dayofweek>
             <time>11:30</time>
-            <instr>Brenda FIne</instr>
+            <instr>Brenda Fine</instr>
             <type>lecture</type>
         </booking>
     </course>
