@@ -1,31 +1,31 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <days>
     <day code="monday">
         <booking>
             <room>SE12-323</room>
             <time>9:30</time>
-            <course>COMP4985</course>
+            <coursename>COMP4985</coursename>
             <instr>Aman Abdula</instr>
             <type>lab</type>
         </booking>
         <booking>
             <room>SW1-1205</room>
             <time>11:30</time>
-            <course>COMP4735</course>
+            <coursename>COMP4735</coursename>
             <instr>Mirela Gutica</instr>
             <type>lecture</type>
         </booking>
         <booking>
             <room>SW9-127</room>
             <time>12:30</time>
-            <course>BLAW3600</course>
+            <coursename>BLAW3600</coursename>
             <instr>Catherine Ryan</instr>
             <type>lab</type>
         </booking>
         <booking>
             <room>SE12-320</room>
             <time>15:30</time>
-            <course>COMP4560</course>
+            <coursename>COMP4560</coursename>
             <instr>Brenda Fine</instr>
             <type>lab</type>
         </booking>
@@ -34,29 +34,28 @@
         <booking>
             <room>SE12-323</room>
             <time>9:30</time>
-            <course>COMP4981</course>
-            <instr>Aman Abdula</instr>
+            <coursename>COMP4981</coursename>
             <instr>Aman Abdula</instr>
             <type>lab</type>
         </booking>
         <booking>
             <room>SW5-1850</room>
             <time>11:30</time>
-            <course>COMP4560</course>
+            <coursename>COMP4560</coursename>
             <instr>Brenda Fine</instr>
             <type>lecture</type>
         </booking>
         <booking>
             <room>SW5-1840</room>
             <time>14:30</time>
-            <course>COMP4711</course>
+            <coursename>COMP4711</coursename>
             <instr>James Parry</instr>
             <type>lecture</type>
         </booking>
         <booking>
             <room>SE12-321</room>
             <time>15:30</time>
-            <course>COMP4711</course>
+            <coursename>COMP4711</coursename>
             <instr>James Parry</instr>
             <type>lab</type>
         </booking>
@@ -65,28 +64,28 @@
         <booking>
             <room>SE12-323</room>
             <time>9:30</time>
-            <course>COMP4985</course>
+            <coursename>COMP4985</coursename>
             <instr>Aman Abdula</instr>
             <type>lecture</type>
         </booking>
         <booking>
             <room>SE12-323</room>
             <time>11:30</time>
-            <course>COMP4985</course>
+            <coursename>COMP4985</coursename>
             <instr>Aman Abdula</instr>
             <type>lecture</type>
         </booking>
         <booking>
             <room>SE12-323</room>
             <time>12:30</time>
-            <course>COMP4985</course>
+            <coursename>COMP4985</coursename>
             <instr>Aman Abdula</instr>
             <type>lecture</type>
         </booking>
         <booking>
             <room>SW1-1205</room>
             <time>13:30</time>
-            <course>BLAW4735</course>
+            <coursename>BLAW4735</coursename>
             <instr>Mirela Gutica</instr>
             <type>lecture</type>
         </booking>
@@ -95,21 +94,21 @@
         <booking>
             <room>SE12-323</room>
             <time>9:30</time>
-            <course>COMP4981</course>
+            <coursename>COMP4981</coursename>
             <instr>Aman Abdula</instr>
             <type>lecture</type>
         </booking>
         <booking>
             <room>SW3-1710</room>
             <time>11:30</time>
-            <course>COMP4735</course>
+            <coursename>COMP4735</coursename>
             <instr>Mirela Gutica</instr>
             <type>lecture</type>
         </booking>
         <booking>
             <room>SE12-322</room>
             <time>15:30</time>
-            <course>COMP4735</course>
+            <coursename>COMP4735</coursename>
             <instr>Matthew Linder</instr>
             <type>lab</type>
         </booking>
@@ -118,14 +117,14 @@
         <booking>
             <room>SW5-1840</room>
             <time>8:30</time>
-            <course>BLAW3600</course>
+            <coursename>BLAW3600</coursename>
             <instr>Catherine Ryan</instr>
             <type>lecture</type>
         </booking>
         <booking>
             <room>SW3-1750</room>
             <time>12:30</time>
-            <course>COMP4560</course>
+            <coursename>COMP4560</coursename>
             <instr>Brenda Fine</instr>
             <type>lecture</type>
         </booking>

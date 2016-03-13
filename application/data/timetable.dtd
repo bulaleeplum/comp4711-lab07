@@ -1,7 +1,3 @@
-<!--
-COMP 4711 Lab 07
--->
-
 <!ELEMENT timetable (days, courses, timeslots)>
 <!ATTLIST timetable set CDATA #REQUIRED>
 <!ATTLIST timetable term CDATA #REQUIRED>
@@ -10,14 +6,18 @@ COMP 4711 Lab 07
 <!ELEMENT day (booking*)>
 <!ATTLIST day code (monday|tuesday|wednesday|thursday|friday) #REQUIRED>
 
+<!ELEMENT courses (course*)>
+<!ELEMENT course (booking*)>
+<!ATTLIST course name CDATA #REQUIRED>
+
 <!ELEMENT timeslots (timeslot*)>
 <!ELEMENT timeslot (booking*)>
 <!ATTLIST timeslot time (8:30|9:30|10:30|11:30|12:30|13:30|14:30|15:30|16:30) #REQUIRED>
 
-<!ELEMENT booking (room, day?, time?, course?, instr, type)>
+<!ELEMENT booking (room, dayofweek?, time?, coursename?, instr, type)>
 <!ELEMENT room (#PCDATA)>
-<!ELEMENT day (#PCDATA)>
+<!ELEMENT dayofweek (#PCDATA)>
 <!ELEMENT time (#PCDATA)>
-<!ELEMENT course (#PCDATA)>
+<!ELEMENT coursename (#PCDATA)>
 <!ELEMENT instr (#PCDATA)>
 <!ELEMENT type (#PCDATA)>
