@@ -8,71 +8,6 @@
             <instr>Aman Abdual</instr>
             <type>lab</type>
         </booking>
-    </course>
-    <course name="COMP4735">
-        <booking>
-            <room>SW1-1205</room>
-            <dayofweek>Monday</dayofweek>
-            <time>11:30</time>
-            <instr>Mirela Hutica</instr>
-            <type>lecture</type>
-        </booking>
-    </course>
-    <course name="BLAW3600">
-        <booking>
-            <room>SW9-127</room>
-            <dayofweek>Monday</dayofweek>
-            <time>12:30</time>
-            <instr>Catherine Ryan</instr>
-            <type>lab</type>
-        </booking>
-    </course>
-    <course name="COMP4560">
-        <booking>
-            <room>SE12-320</room>
-            <dayofweek>Monday</dayofweek>
-            <time>15:30</time>
-            <instr>Brenda FIne</instr>
-            <type>lab</type>
-        </booking>
-    </course>
-    <course name="COMP4981">
-        <booking>
-            <room>SE12-232</room>
-            <dayofweek>Tuesday</dayofweek>
-            <time>9:30</time>
-            <instr>Aman Abdual</instr>
-            <type>lab</type>
-        </booking>
-    </course>
-    <course name="COMP4560">
-        <booking>
-            <room>SW5-1850</room>
-            <dayofweek>Tuesday</dayofweek>
-            <time>11:30</time>
-            <instr>Brenda FIne</instr>
-            <type>lab</type>
-        </booking>
-    </course>
-    <course name="COMP4711">
-        <booking>
-            <room>SW5-1840</room>
-            <dayofweek>Tuesday</dayofweek>
-            <time>14:30</time>
-            <instr>James Parry</instr>
-            <type>lecture</type>
-        </booking>
-    </course>
-    <course name="COMP4711">
-        <booking>
-            <room>SW5-1840</room>
-            <dayofweek>Tuesday</dayofweek>
-            <time>15:30</time>
-            <instr>James Parry</instr>
-            <type>lab</type>
-        </booking>
-    </course>
-    <course name="COMP4985">
         <booking>
             <room>SE12-323</room>
             <dayofweek>Wednesday</dayofweek>
@@ -81,16 +16,14 @@
             <type>lecture</type>
         </booking>
     </course>
-    <course name="COMP4981">
-        <booking>
-            <room>SE12-232</room>
-            <dayofweek>Tuesday</dayofweek>
-            <time>11:30</time>
-            <instr>Aman Abdual</instr>
-            <type>lab</type>
-        </booking>
-    </course>
     <course name="COMP4735">
+        <booking>
+            <room>SW1-1205</room>
+            <dayofweek>Monday</dayofweek>
+            <time>11:30</time>
+            <instr>Mirela Hutica</instr>
+            <type>lecture</type>
+        </booking>
         <booking>
             <room>SW1-1205</room>
             <dayofweek>Wednesday</dayofweek>
@@ -98,17 +31,6 @@
             <instr>Mirela Hutica</instr>
             <type>lecture</type>
         </booking>
-    </course>
-    <course name="COMP4981">
-        <booking>
-            <room>SE12-232</room>
-            <dayofweek>Thursday</dayofweek>
-            <time>9:30</time>
-            <instr>Aman Abdual</instr>
-            <type>lecture</type>
-        </booking>
-    </course>
-    <course name="COMP4735">
         <booking>
             <room>SW3-1710</room>
             <dayofweek>Thursday</dayofweek>
@@ -116,8 +38,6 @@
             <instr>Mirela Hutica</instr>
             <type>lecture</type>
         </booking>
-    </course>
-    <course name="COMP4735">
         <booking>
             <room>SW3-1710</room>
             <dayofweek>Thursday</dayofweek>
@@ -129,6 +49,13 @@
     <course name="BLAW3600">
         <booking>
             <room>SW9-127</room>
+            <dayofweek>Monday</dayofweek>
+            <time>12:30</time>
+            <instr>Catherine Ryan</instr>
+            <type>lab</type>
+        </booking>
+        <booking>
+            <room>SW9-127</room>
             <dayofweek>Friday</dayofweek>
             <time>8:30</time>
             <instr>Catherine Ryan</instr>
@@ -137,11 +64,64 @@
     </course>
     <course name="COMP4560">
         <booking>
+            <room>SE12-320</room>
+            <dayofweek>Monday</dayofweek>
+            <time>15:30</time>
+            <instr>Brenda Fine</instr>
+            <type>lab</type>
+        </booking>
+        <booking>
+            <room>SW5-1850</room>
+            <dayofweek>Tuesday</dayofweek>
+            <time>11:30</time>
+            <instr>Brenda FIne</instr>
+            <type>lab</type>
+        </booking>
+        <booking>
             <room>SW3-1750</room>
             <dayofweek>Friday</dayofweek>
             <time>11:30</time>
             <instr>Brenda FIne</instr>
             <type>lecture</type>
+        </booking>
+    </course>
+    <course name="COMP4981">
+        <booking>
+            <room>SE12-232</room>
+            <dayofweek>Tuesday</dayofweek>
+            <time>9:30</time>
+            <instr>Aman Abdual</instr>
+            <type>lab</type>
+        </booking>
+        <booking>
+            <room>SE12-232</room>
+            <dayofweek>Wednesday</dayofweek>
+            <time>11:30</time>
+            <instr>Aman Abdual</instr>
+            <type>lab</type>
+        </booking>
+        <booking>
+            <room>SE12-232</room>
+            <dayofweek>Thursday</dayofweek>
+            <time>9:30</time>
+            <instr>Aman Abdual</instr>
+            <type>lecture</type>
+        </booking>
+    </course>
+    <course name="COMP4711">
+        <booking>
+            <room>SW5-1840</room>
+            <dayofweek>Tuesday</dayofweek>
+            <time>14:30</time>
+            <instr>James Parry</instr>
+            <type>lecture</type>
+        </booking>
+        <booking>
+            <room>SW5-1840</room>
+            <dayofweek>Tuesday</dayofweek>
+            <time>15:30</time>
+            <instr>James Parry</instr>
+            <type>lab</type>
         </booking>
     </course>
 </courses>
