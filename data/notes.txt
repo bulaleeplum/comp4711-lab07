@@ -1,0 +1,29 @@
+// this is some of what Jim wrote on the white board
+
+timeslots
+    slot time="1530"
+     { booking room, day, course, instr, type }
+
+days
+    day code="tuesday"
+    { booking room, time, course, instr, type }
+
+courses
+    course name="comp4711"
+     { booking day, time, room, type, instr }
+
+
+---------------------------------------
+
+<!DOCTYPE ~
+<!ENTITY part2 SYSTEM "~" >
+    2
+    3
+<timetable>
+    &part1;
+    &part2;
+     ...
+</timetable>
+
+<time>0930-1420</time>
+
