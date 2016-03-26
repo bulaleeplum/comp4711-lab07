@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE courses SYSTEM "timetable.dtd">
 <courses>
     <course name="COMP4985">
         <booking>
