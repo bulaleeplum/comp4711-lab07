@@ -21,5 +21,8 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('welcome_message');
+		$this->load->model('timetable');
+		print_r($this->timetable->getTimeslots());
+
 	}
 }
