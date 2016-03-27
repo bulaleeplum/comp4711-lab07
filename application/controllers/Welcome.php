@@ -20,9 +20,12 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
-		$this->load->model('timetable');
 		print_r($this->timetable->getTimeslots());
 
+		$this->data['daysOfWeek'] = $this->timetable->getDaysOfTheWeek();
+		$this->data['courses'] = $this->timetable->getCourses();
+		$this->data['timeslots'] = $this->timetable->getTimeslots();
+
+		$this->render();
 	}
 }
