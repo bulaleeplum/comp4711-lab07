@@ -12,7 +12,8 @@ class Timetable extends CI_Model {
     private $timeslots;
 
     public function __construct() {
-        $this->xml = simplexml_load_file('data/timetable.xml');
+        parent::__construct();
+        $this->xml = simplexml_load_file(DATAPATH . 'timetable' . XMLSUFFIX);
 
         //populate daysOfWeek array from days.xml
         foreach($this->xml->days->day as $day) {
@@ -61,14 +62,17 @@ class Timetable extends CI_Model {
 
     }
 
+    // Get a list of days to populate dropdown
     public function getDaysOfTheWeek() {
         return $this->daysOfWeek;
     }
 
+    // Get a list of courses to populate dropdown
     public function getCourses() {
        return $this->courses;
     }
 
+    // Get a list of timeslots to populate dropdown
     public function getTimeslots() {
         return $this->timeslots;
     }
