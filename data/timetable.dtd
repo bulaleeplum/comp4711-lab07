@@ -1,19 +1,24 @@
+<!-- Time table (root element) -->
 <!ELEMENT timetable (days, courses, timeslots)>
 <!ATTLIST timetable set CDATA #REQUIRED>
 <!ATTLIST timetable term CDATA #REQUIRED>
 
+<!-- Days facet -->
 <!ELEMENT days (day*)>
 <!ELEMENT day (booking*)>
-<!ATTLIST day code (monday|tuesday|wednesday|thursday|friday) #REQUIRED>
+<!ATTLIST day code (Monday|Tuesday|Wednesday|Thursday|Friday) #REQUIRED>
 
+<!-- Courses facet -->
 <!ELEMENT courses (course*)>
 <!ELEMENT course (booking*)>
 <!ATTLIST course name CDATA #REQUIRED>
 
+<!-- Timeslot facet -->
 <!ELEMENT timeslots (timeslot*)>
 <!ELEMENT timeslot (booking*)>
 <!ATTLIST timeslot time (8:30|9:30|10:30|11:30|12:30|13:30|14:30|15:30|16:30) #REQUIRED>
 
+<!-- Bookings -->
 <!ELEMENT booking (room, dayofweek?, time?, coursename?, instr, type)>
 <!ELEMENT room (#PCDATA)>
 <!ELEMENT dayofweek (#PCDATA)>
