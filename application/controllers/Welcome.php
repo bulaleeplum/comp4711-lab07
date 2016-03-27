@@ -22,10 +22,13 @@ class Welcome extends CI_Controller {
 	{
 		print_r($this->timetable->getTimeslots());
 
+		// Populate dropdown data
 		$this->data['daysOfWeek'] = $this->timetable->getDaysOfTheWeek();
 		$this->data['courses'] = $this->timetable->getCourses();
 		$this->data['timeslots'] = $this->timetable->getTimeslots();
 
+		// Present the list to choose from
+		$this->data['pagebody'] = 'homepage';
 		$this->render();
 	}
 }
