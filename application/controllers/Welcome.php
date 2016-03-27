@@ -1,28 +1,30 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Welcome extends CI_Controller {
+class Welcome extends MY_Controller {
+
+ 	function __construct() {
+        parent::__construct();
+    }
 
 	/**
 	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function index()
-	{
-		$this->load->view('welcome_message');
-		$this->load->model('timetable');
-		print_r($this->timetable->getTimeslots());
+	public function index() {
 
+		$this->data['pagebody'] = 'timetable';
+		$this->data['title'] = 'Timetable';
+		$this->data['pagetitle'] = 'Timetable';
+
+		$this->load->model('timetable');
+
+		$this->data['days'] = $this->timetable->getDaysOfTheWeek();
+		$this->data['courses'] = $this->timetable->getCourses();
+		$this->data['timeslots'] = $this->timetable->getTimeslots();
+
+		// testing
+		// print_r($this->timetable->getTimeslots());
+
+		$this->render();
 	}
 }
