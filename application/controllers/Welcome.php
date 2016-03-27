@@ -18,6 +18,7 @@ class Welcome extends MY_Controller {
 
 		$this->load->model('timetable');
 
+		// populate dropdown data
 		$this->data['days'] = $this->timetable->getDaysOfTheWeek();
 		$this->data['courses'] = $this->timetable->getCourses();
 		$this->data['timeslots'] = $this->timetable->getTimeslots();
