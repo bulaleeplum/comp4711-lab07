@@ -14,7 +14,7 @@ class Welcome extends MY_Controller {
 
 		$this->data['pagebody'] = 'timetable';
 		$this->data['title'] = 'Timetable';
-		$this->data['pagetitle'] = 'Timetable';
+		$this->data['pagetitle'] = 'Index';
 
 		$this->load->model('timetable');
 
@@ -25,6 +25,20 @@ class Welcome extends MY_Controller {
 
 		// testing
 		// print_r($this->timetable->getTimeslots());
+
+		$this->render();
+	}
+
+	public function search() {
+		$this->data['pagetitle'] = 'Search Result';
+		$this->data['pagebody'] = 'timetable_search';
+
+		$this->load->model('timetable');
+
+		// use these for search method call
+		$day = $this->input->post('day');
+		$timeslot = $this->input->post('time');
+
 
 		$this->render();
 	}
