@@ -23,7 +23,7 @@ class MY_Controller extends CI_Controller {
         $this->data = array();
         $this->data['title'] = 'title';             // default title
         $this->data['pagetitle'] = 'pagetitle'; 	// default page
-        $this->load->library('parser');
+        $this->data['searchBar'] = $this->createSearchBar();
 	}
 
 	/**
@@ -38,4 +38,12 @@ class MY_Controller extends CI_Controller {
         // load the template
         $this->parser->parse('base/_template', $this->data);
 	}
+
+    public function createSearchBar() {
+        $dropdown = array();
+        $dropdown['dayDropdown'] = form_dropdown('day', $this->timetable->getDaysDropdown());
+        $dropdown['timeDropdown'] = form_dropdown('time', $this->timetable->getTimeslotDropdown());
+
+        return $this->parser->parse('searchBar', $dropdown, true);
+    }
 }
