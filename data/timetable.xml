@@ -5,7 +5,7 @@
         <!ENTITY timeslots SYSTEM "timeslots.xml">
 ]>
 <timetable set="4O" term="Winter 2016">
-    &days;
-    &courses;
-    &timeslots;
+     &days;
+     &courses;
+     &timeslots;
 </timetable>

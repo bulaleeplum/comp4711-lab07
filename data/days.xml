@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE days SYSTEM "timetable.dtd">
 <days>
-    <day code="monday">
+    <day code="Monday">
         <booking>
             <room>SE12-323</room>
             <time>9:30</time>
@@ -31,7 +30,7 @@
             <type>lab</type>
         </booking>
     </day>
-    <day code="tuesday">
+    <day code="Tuesday">
         <booking>
             <room>SE12-323</room>
             <time>9:30</time>
@@ -61,7 +60,7 @@
             <type>lab</type>
         </booking>
     </day>
-    <day code="wednesday">
+    <day code="Wednesday">
         <booking>
             <room>SE12-323</room>
             <time>9:30</time>
@@ -91,7 +90,7 @@
             <type>lecture</type>
         </booking>
     </day>
-    <day code="thursday">
+    <day code="Thursday">
         <booking>
             <room>SE12-323</room>
             <time>9:30</time>
@@ -114,7 +113,7 @@
             <type>lab</type>
         </booking>
     </day>
-    <day code="friday">
+    <day code="Friday">
         <booking>
             <room>SW5-1840</room>
             <time>8:30</time>
