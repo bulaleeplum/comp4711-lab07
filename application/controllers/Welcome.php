@@ -14,7 +14,7 @@ class Welcome extends MY_Controller {
 
 		$this->data['pagebody'] = 'timetable';
 		$this->data['title'] = 'Timetable';
-		$this->data['pagetitle'] = 'Timetable';
+		$this->data['pagetitle'] = 'Index';
 
 		$this->load->model('timetable');
 
@@ -33,13 +33,14 @@ class Welcome extends MY_Controller {
      * Get inputs from search form and get the results from the Timetable model.
      */
 	function search () {
-        // Search form inputs
-		//$queryDay = $this->input->post('day');
-		//$queryTime= $this->input->post('timeslot');
+        $this->data['pagetitle'] = 'Search Result';
+		$this->data['pagebody'] = 'timetable_search';
 
-        // Testing
-		$queryDay = 'Monday';
-		$queryTime = '15:30';
+		$this->load->model('timetable');
+
+        // Search form inputs
+		$queryDay = $this->input->post('day');
+		$queryTime= $this->input->post('time');
 
 		$dayResult = $this->timetable->searchDaysOfTheWeek($queryDay, $queryTime);
 		$courseResult = $this->timetable->searchCourses($queryDay, $queryTime);

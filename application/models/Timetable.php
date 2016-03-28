@@ -115,6 +115,28 @@ class Timetable extends CI_Model {
 
         return $result;
     }
+
+    public function getDaysDropdown() {
+        return array('Monday' => 'Monday',
+                    'Tuesday' => 'Tuesday',
+                    'Wednesday' => 'Wednesday',
+                    'Thursday' => 'Thursday',
+                    'Friday' => 'Friday'
+                    );
+    }
+
+    public function getTimeslotDropdown(){
+        return array (
+            '8:30' => '8:30',
+            '9:30' => '9:30',
+            '10:30' => '10:30',
+            '11:30' => '11:30',
+            '12:30' => '12:30',
+            '13:30' => '13:30',
+            '14:30' => '14:30',
+            '15:30' => '15:30',
+        );
+    }
 }
 
 
