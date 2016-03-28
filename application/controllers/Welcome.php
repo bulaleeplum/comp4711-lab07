@@ -23,9 +23,6 @@ class Welcome extends MY_Controller {
 		$this->data['courses'] = $this->timetable->getCourses();
 		$this->data['timeslots'] = $this->timetable->getTimeslots();
 
-		// testing
-		// print_r($this->timetable->getTimeslots());
-
 		$this->render();
 	}
 
@@ -52,15 +49,18 @@ class Welcome extends MY_Controller {
                   $courseResult == 1 &&
                   $timeslotResult == 1) &&
             ($dayResult == $courseResult && $courseResult == $timeslotResult)) {
-            $this->data['bingo'] == "Badabing badaboom, wawaweewa, it's a good.";
-
+            $this->data['bingo'] = "Bingo!";
         } else {
-            $this->data['bingo'] == "Error, it's a bad.";
+            $this->data['bingo'] = "Error, no bingo.";
+            // Turn the results into nothingness so no data displays
+            $dayResult = array();
+            $courseResult = array();
+            $timeslotResult = array();
         }
         // Pass view parameters:
-        // Set $dayResult
-        // Set $courseResult
-        // Set $timeSlotResult
+        $this->data['days'] = $dayResult;
+        $this->data['courses'] = $courseResult;
+        $this->data['timeslots'] = $timeslotResult;
         $this->render();
     }
 }

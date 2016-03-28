@@ -1,8 +1,6 @@
 <div class="row center">
-    {daytest}
-    {timetest}
     <div>
-        <h4>bingo?</h4>
+        <h4>{bingo}</h4>
         <table class="highlight responsive-table">
             <thead>
                 <tr>
