@@ -29,17 +29,38 @@ class Welcome extends MY_Controller {
 		$this->render();
 	}
 
-	public function search() {
-		$this->data['pagetitle'] = 'Search Result';
+    /*
+     * Get inputs from search form and get the results from the Timetable model.
+     */
+	function search () {
+        $this->data['pagetitle'] = 'Search Result';
 		$this->data['pagebody'] = 'timetable_search';
 
 		$this->load->model('timetable');
 
-		// use these for search method call
-		$day = $this->input->post('day');
-		$timeslot = $this->input->post('time');
+        // Search form inputs
+		$queryDay = $this->input->post('day');
+		$queryTime= $this->input->post('time');
 
+		$dayResult = $this->timetable->searchDaysOfTheWeek($queryDay, $queryTime);
+		$courseResult = $this->timetable->searchCourses($queryDay, $queryTime);
+		$timeslotResult = $this->timetable->searchTimeslots($queryDay, $queryTime);
 
-		$this->render();
-	}
+        // Check if the search returns consistent data. If consistent, display 'bingo' and result.
+        // Each facet should return a single booking and the three bookings should be the same.
+        if (count($dayResult == 1 &&
+                  $courseResult == 1 &&
+                  $timeslotResult == 1) &&
+            ($dayResult == $courseResult && $courseResult == $timeslotResult)) {
+            $this->data['bingo'] == "Badabing badaboom, wawaweewa, it's a good.";
+
+        } else {
+            $this->data['bingo'] == "Error, it's a bad.";
+        }
+        // Pass view parameters:
+        // Set $dayResult
+        // Set $courseResult
+        // Set $timeSlotResult
+        $this->render();
+    }
 }
