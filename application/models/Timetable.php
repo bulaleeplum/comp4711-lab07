@@ -12,8 +12,8 @@ class Timetable extends CI_Model {
     private $timeslots;
 
     public function __construct() {
-
-        $this->xml = simplexml_load_file(DATAPATH . 'timetable' . XMLSUFFIX, "SimpleXMLElement", LIBXML_NOENT);
+        parent::__construct();
+        $this->xml = simplexml_load_file(DATAPATH . 'timetable' . XMLSUFFIX);
 
         //populate daysOfWeek array from days.xml
         foreach($this->xml->days->day as $day) {
@@ -77,6 +77,44 @@ class Timetable extends CI_Model {
         return $this->timeslots;
     }
 
+    // Returns the Booking search result of a given day and timeslot query from Days.xml.
+    public function searchDaysOfTheWeek($queryDay, $queryTime) {
+        $result = array();
+
+        foreach ($this->daysOfWeek as $booking) {
+            if ($booking->day == $queryDay && $booking->time == $queryTime) {
+                array_push($result, $booking);
+            }
+        }
+
+        return $result;
+    }
+
+    // Returns the Booking search result of a given day and timeslot query from Courses.xml.
+    public function searchCourses($queryDay, $queryTime) {
+        $result = array();
+
+        foreach ($this->courses as $booking) {
+            if ($booking->day == $queryDay && $booking->time == $queryTime) {
+                array_push($result, $booking);
+            }
+        }
+
+        return $result;
+    }
+
+    // Returns the Booking search result of a given day and timeslot query from Timeslots.xml.
+    public function searchTimeslots($queryDay, $queryTime) {
+        $result = array();
+
+        foreach ($this->timeslots as $booking) {
+            if ($booking->day == $queryDay && $booking->time == $queryTime) {
+                array_push($result, $booking);
+            }
+        }
+
+        return $result;
+    }
 }
 
 
